@@ -1,11 +1,8 @@
 Package: EEGSpectralAnalysis
 Title: Compute and plot various spectral EEG analyses
 Version: 0.0.0.9001
-Authors@R: 
-    person(given = "Adi",
-           family = "Gherman",
-           role = c("aut", "cre"),
-           email = "adig@jhu.edu")
+Authors@R: person(given = "Adi", family = "Gherman", role = c("aut",
+        "cre"), email = "adig@jhu.edu")
 Description: Compute and plot various spectral EEG analyses.
 Imports: signal, RcppRoll, pracma, edfReader
 BugReports: https://github.com/adigherman/EEGSpectralAnalysis/issues
@@ -13,3 +10,8 @@ License: GPL-2
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
+Repository: Neuroconductor
+Suggests: 
+    covr,
+    testthat
+biocViews: 
